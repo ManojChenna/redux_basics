@@ -1,10 +1,14 @@
 import React from "react";
+import SongList from "./SongList";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="ui container grid">
+      <div className="ui row">
+        <div className="column eight wide">
+          <SongList />
+        </div>
+      </div>
     </div>
   );
 };
